@@ -1,0 +1,86 @@
+:root {
+    --color-darkishblue: rgb(57, 183, 255);
+    --color-lightblue: rgb(0, 238, 255);
+    --color-gold: rgb(255, 215, 0);
+}
+
+h3 {
+    color: white;
+    font-size: clamp(3em, 2.2vw, 4em);
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px 0px 20px 0;
+    text-align: center;
+}
+
+h3>.magic {
+    display: inline-block;
+    position: relative;
+}
+
+h3>.magic>.magic-star {
+    --size: clamp(20px, 1.5vw, 30px);
+
+    animation: scale 700ms ease forwards;
+    display: block;
+    height: var(--size);
+    left: var(--star-left);
+    position: absolute;
+    top: var(--star-top);
+    width: var(--size);
+}
+
+h3>.magic>.magic-star>svg {
+    animation: rotate 1000ms linear infinite;
+    display: block;
+    opacity: 0.7;
+}
+
+h3>.magic>.magic-star>svg>path {
+    fill: var(--color-lightblue);
+}
+
+h3>.magic>.magic-text {
+    animation: background-pan 3s linear infinite;
+    background: linear-gradient(to right,
+            var(--color-darkishblue),
+            var(--color-lightblue),
+            var(--color-gold),
+            var(--color-darkishblue));
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    white-space: nowrap;
+}
+
+@keyframes background-pan {
+    from {
+        background-position: 0% center;
+    }
+
+    to {
+        background-position: -200% center;
+    }
+}
+
+@keyframes scale {
+
+    from,
+    to {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(180deg);
+    }
+}
