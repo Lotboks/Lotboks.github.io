@@ -1,7 +1,12 @@
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-specialblue: rgb(53, 134, 255);
+}
+
 footer {
     position: relative;
     width: 100%;
-    background: #3586ff;
+    background: var(--color-specialblue);
     min-height: 100px;
     padding: 8px 50px;
     display: flex;
@@ -27,7 +32,7 @@ footer .menu li {
 
 footer .social_icon li a {
     font-size: 2em;
-    color: #fff;
+    color: var(--color-white);
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -39,7 +44,7 @@ footer .social_icon li a:hover {
 
 footer .menu li a {
     font-size: 1.2em;
-    color: #fff;
+    color: var(--color-white);
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
@@ -52,7 +57,7 @@ footer .menu li a:hover {
 }
 
 footer p {
-    color: #fff;
+    color: var(--color-white);
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;

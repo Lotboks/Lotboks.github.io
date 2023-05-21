@@ -1,11 +1,12 @@
 :root {
+    --color-normalwhite: rgb(255, 255, 255);
     --color-darkishblue: rgb(57, 183, 255);
     --color-lightblue: rgb(0, 238, 255);
     --color-gold: rgb(255, 215, 0);
 }
 
 h3 {
-    color: white;
+    color: var(--color-normalwhite);
     font-size: clamp(3em, 2.2vw, 4em);
     font-weight: 600;
     margin: 0px;
@@ -51,6 +52,7 @@ h3>.magic>.magic-text {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     white-space: nowrap;
+    font-size: 5.8vh;
 }
 
 @keyframes background-pan {

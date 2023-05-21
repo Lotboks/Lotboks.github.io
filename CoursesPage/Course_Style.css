@@ -1,3 +1,9 @@
+:root {
+    --color-specialblue: rgb(53, 134, 255);
+    --color-specialbluealpha: rgba(37, 95, 154, 0.621);
+    --color-white: rgb(255, 255, 255);
+}
+
 .course {
     width: 80%;
     margin: auto;
@@ -11,7 +17,7 @@ h1 {
 }
 
 p {
-    color: #fff;
+    color: var(--color-white);
     font-size: 14px;
     font-weight: 300;
     line-height: 22px;
@@ -27,7 +33,7 @@ p {
 
 .course-col {
     flex-basis: 19%;
-    background: #3586FF;
+    background: var(--color-specialblue);
     opacity: .8;
     border-radius: 10px;
     margin-bottom: 5%;
@@ -40,7 +46,7 @@ p {
 .course-col a:link,
 .course-col a:visited {
     text-decoration: none;
-    color: white;
+    color: var(--color-white);
 }
 
 .course-col p {
@@ -58,7 +64,7 @@ h3 {
 }
 
 .course-col:hover {
-    box-shadow: 0 0 20px 8px rgba(37, 95, 154, 0.621);
+    box-shadow: 0 0 20px 8px var(--color-specialbluealpha);
 }
 
 @media (max-width: 700px) {
