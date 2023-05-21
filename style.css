@@ -158,8 +158,16 @@ nav .fa {
         cursor: pointer;
     }
 
+    nav img {
+        width: 6vh;
+    }
+
     .nav-links ul {
         padding: 30px;
+    }
+
+    h1.fade-in-text {
+        font-size: 3.5vh;
     }
 }
 
