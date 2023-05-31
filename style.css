@@ -22,7 +22,35 @@ body {
     color: var(--color-classicwhite);
 }
 
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
 /* Nav n stuff */
+
+.sub-nag h1 {
+    margin-top: 100px;
+}
+
+.sub-nag {
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+        url("/Images/IMG_9844.JPG");
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
 
 .sub-nag h1 {
     margin-top: 100px;
