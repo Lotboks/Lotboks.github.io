@@ -65,7 +65,6 @@ p {
         url("/Images/MainPage_LoadingImage.jpg");
     background-position: center;
     background-size: cover;
-    position: relative;
 }
 
 nav {
