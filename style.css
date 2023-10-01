@@ -7,6 +7,7 @@
     --color-custombluealpha: rgba(42, 111, 172, 0.79);
     --color-customdarkbluealpha: rgba(11, 209, 231, 0.379);
     --color-customblue: rgb(15, 140, 208);
+    --color-customcream: #fdcb6e;
 }
 
 * {
@@ -150,9 +151,9 @@ nav img {
 }
 
 .hero-btn:hover {
-    border: 1px solid var(--color-aqua);
-    background: var(--color-aqua);
-    color: var(--color-classicblack);
+    border: 1px solid var(--color-customblue);
+    background: var(--color-customblue);
+    color: var(--color-customcream);
     transition: 1s;
     box-shadow: -1px 17px 30px 30px var(--color-custombluealpha) inset;
 }
