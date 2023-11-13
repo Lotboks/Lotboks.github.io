@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /index.html/
+Allow: /AboutPage/About.html/
+Allow: /ContactPage/Contact.html/
+Allow: /CoursesPage/Course.html/
+Allow: /Gallery/Gallery.html/
