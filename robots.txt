@@ -9,8 +9,8 @@ Allow: /CoursesPage/Course_Style.css/
 Allow: /CoursesPage/Course.html/
 Allow: /ContactPage/Contact_Style.css/
 Allow: /ContactPage/Contact.html/
-Allow: Scripts/script.js/
-Allow: Scripts/Sparkling_text_HomePage.js/
+Allow: /Scripts/script.js/
+Allow: /Scripts/Sparkling_text_HomePage.js/
 
 
 Sitemap: https://aquadanceclub.com/sitemap.xml
