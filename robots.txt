@@ -11,6 +11,7 @@ Allow: /ContactPage/Contact_Style.css/
 Allow: /ContactPage/Contact.html/
 Allow: /Scripts/script.js/
 Allow: /Scripts/Sparkling_text_HomePage.js/
+Allow: /favicon.ico/
 
 
 Sitemap: https://aquadanceclub.com/sitemap.xml
