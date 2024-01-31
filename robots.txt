@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /style.css/
+Allow: /index.html/
+Allow: /AboutPage/About_Style.css/
+Allow: /AboutPage/About.html/
+Allow: /Gallery/Gallery_Style.css/
+Allow: /Gallery/Gallery.html/
+Allow: /CoursesPage/Course_Style.css/
+Allow: /CoursesPage/Course.html/
+Allow: /ContactPage/Contact_Style.css/
+Allow: /ContactPage/Contact.html/
+Allow: /Scripts/script.js/
+Allow: /Scripts/Sparkling_text_HomePage.js/
+Allow: /favicon.ico/
+
+
+Sitemap: https://aquadanceclub.com/sitemap.xml
