@@ -139,6 +139,26 @@
     box-shadow: 10px 10px 14px 5px var(--color-darkgrayalpha);
 }
 
+.phone-number {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 0.2s;
+}
+
+.phone-number:hover {
+    color: var(--color-aquablue);
+}
+
+.contact-email {
+    text-decoration: none;
+    color: var(--color-white);
+    transition: 0.2s;
+}
+
+.contact-email:hover {
+    color: var(--color-aquablue);
+}
+
 @media (max-width: 700px) {
     .contact h1 {
         font-size: 24px;
