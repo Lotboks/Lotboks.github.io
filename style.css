@@ -5,7 +5,8 @@
   --color-customblackalpha: rgba(4, 9, 30, 0.7);
   --color-aqua: rgb(0, 255, 255);
   --color-custombluealpha: rgba(42, 111, 172, 0.79);
-  --color-customdarkbluealpha: rgba(11, 209, 231, 0.379);
+  --color-customdarkbluealpha: rgba(54, 134, 255, 0.394);
+  --color-mainbluetheme: rgba(54, 134, 255);
   --color-customblue: rgb(15, 140, 208);
   --color-customcream: #fdcb6e;
 }
@@ -144,20 +145,21 @@ nav img {
   color: var(--color-classicwhite);
   border: 1px solid var(--color-classicwhite);
   padding: 12px 34px;
+
   font-size: 13px;
   font-weight: 600;
   background: transparent;
   position: relative;
   cursor: pointer;
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .hero-btn:hover {
   border: 1px solid var(--color-customblue);
   background: var(--color-customblue);
   color: var(--color-customcream);
-  transition: 1s;
   box-shadow: -1px 17px 30px 30px var(--color-custombluealpha) inset;
+  scale: 1.1;
 }
 
 nav .fa {
@@ -275,6 +277,11 @@ nav .fa {
   margin: 3.5vh 6vh;
   position: relative;
   overflow: hidden;
+  transition: 0.3s;
+}
+
+.campus-col:hover {
+  box-shadow: 0px 0px 40px rgba(54, 134, 255, 0.379);
 }
 
 .campus-col img {
